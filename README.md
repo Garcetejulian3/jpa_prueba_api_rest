@@ -1,23 +1,23 @@
-# 🧩 API REST con Spring Boot: Persona & Mascota
+# API REST con Spring Boot: Persona y Mascota
 
-Este proyecto es una **API REST sencilla** desarrollada con **Spring Boot**, que implementa operaciones CRUD básicas y una relación **OneToMany** entre las entidades `Persona` y `Mascota`.
+Este proyecto es una *API REST sencilla* desarrollada con *Spring Boot*, que implementa operaciones CRUD básicas y una relación *OneToMany* entre las entidades `Persona` y `Mascota`.
 
 ---
 
-## 🚀 Descripción del Proyecto
+# Descripción del Proyecto
 
 La API permite gestionar personas y sus mascotas a través de endpoints REST.  
-El objetivo principal fue **aprender y practicar conceptos fundamentales de Spring Boot, JPA y relaciones entre entidades**.
+El objetivo principal fue *aprender y practicar conceptos fundamentales de Spring Boot, JPA y relaciones entre entidades*.
 
-### 🔹 Estructura principal
+##Estructura principal
 
-- **Persona**: Entidad principal con operaciones CRUD completas (crear, leer, actualizar, eliminar).  
-- **Mascota**: Entidad secundaria relacionada con Persona mediante una relación **OneToMany**.  
+- *Persona*: Entidad principal con operaciones CRUD completas (crear, leer, actualizar, eliminar).  
+- *Mascota*: Entidad secundaria relacionada con Persona mediante una relación **OneToMany**.  
   Solo permite la creación para asociar una nueva mascota a una persona existente.
 
 ---
 
-## 🧱 Tecnologías utilizadas
+# Tecnologías utilizadas
 
 - **Java 17**
 - **Spring Boot 3**
@@ -28,7 +28,7 @@ El objetivo principal fue **aprender y practicar conceptos fundamentales de Spri
 
 ---
 
-## 🧩 Relación entre entidades
+## Relación entre entidades
 
 ### Persona
 ```java
